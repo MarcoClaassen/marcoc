@@ -1,0 +1,83 @@
+Return-Path: <>
+Delivered-To: marcoc1q@www38.totaalholding.nl
+Received: from www38.totaalholding.nl
+	by www38.totaalholding.nl with LMTP
+	id 0OLjHRMY2l/cFQAAgS+L7g
+	(envelope-from <>)
+	for <marcoc1q@www38.totaalholding.nl>; Wed, 16 Dec 2020 15:22:11 +0100
+Return-path: <>
+Envelope-to: marcoc1q@www38.totaalholding.nl
+Delivery-date: Wed, 16 Dec 2020 15:22:11 +0100
+Received: from mailnull by www38.totaalholding.nl with local (Exim 4.93)
+	id 1kpXgx-000327-BI
+	for marcoc1q@www38.totaalholding.nl; Wed, 16 Dec 2020 15:22:11 +0100
+X-Failed-Recipients: MC_241@Hotmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@www38.totaalholding.nl>
+To: marcoc1q@www38.totaalholding.nl
+References: <E1kpXgu-00031g-Mb@www38.totaalholding.nl>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1608128531-eximdsn-282349230
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kpXgx-000327-BI@www38.totaalholding.nl>
+Date: Wed, 16 Dec 2020 15:22:11 +0100
+
+--1608128531-eximdsn-282349230
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  MC_241@Hotmail.com
+    host filter.totaalholding.nl [185.56.145.19]
+    SMTP error from remote mail server after end of data:
+    550 Message rejected due to user rules.
+
+--1608128531-eximdsn-282349230
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; www38.totaalholding.nl
+
+Action: failed
+Final-Recipient: rfc822;MC_241@Hotmail.com
+Status: 5.0.0
+Remote-MTA: dns; filter.totaalholding.nl
+Diagnostic-Code: smtp; 550 Message rejected due to user rules.
+
+--1608128531-eximdsn-282349230
+Content-type: message/rfc822
+
+Return-path: <marcoc1q@www38.totaalholding.nl>
+Received: from marcoc1q by www38.totaalholding.nl with local (Exim 4.93)
+	(envelope-from <marcoc1q@www38.totaalholding.nl>)
+	id 1kpXgu-00031g-Mb
+	for MC_241@Hotmail.com; Wed, 16 Dec 2020 15:22:08 +0100
+To: MC_241@Hotmail.com
+Subject: =?UTF-8?B?TmV3IEluc3RhbGxhdGlvbiBvZiBMYXJhdmVs?=
+X-PHP-Script: www38.totaalholding.nl/usr/local/cpanel/whostmgr/docroot/cgi/softaculous/enduser/index.live.php for 37.153.196.5
+X-PHP-Originating-Script: 0:mail_functions.php
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+From: Softaculous <noreply@neostrada.nl>
+Reply-To: noreply@neostrada.nl
+X-Mailer: PHP/7.3.6
+Message-Id: <E1kpXgu-00031g-Mb@www38.totaalholding.nl>
+Date: Wed, 16 Dec 2020 15:22:08 +0100
+
+A new installation of Laravel 8.18.1 has been completed. The details of the installation are shown below:
+Path : /home/marcoc1q/public_html
+URL : http://marcoc.nl
+Admin URL : http://marcoc.nl/
+Admin Password : ********
+MySQL DB Password : ********
+Update Notification : Enabled
+Auto Upgrade : Disabled
+Automated Backups : Disabled
+Time of Installation : December 16, 2020, 3:22 pm
+
+If you wish to unsubscribe from such emails, go to your Control Panel -> Softaculous -> Email Settings
+
+
+--1608128531-eximdsn-282349230--
